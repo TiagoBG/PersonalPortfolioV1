@@ -1,0 +1,101 @@
+body {
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.nav-menu {
+    height: 15vh;
+    background: indigo;
+    font-size: 1.5rem;
+}
+
+.item {
+    margin: 0 2vw;
+}
+
+.item:hover {
+    background-color: rgb(90, 14, 90);
+}
+
+.nav-menu a {
+    color: white;
+}
+
+.nav-menu a:hover {
+    color: violet;
+    transition: 500ms;
+}
+
+.first-section {
+    margin-top: 15vh;
+    height: 100vh;
+    border: none;
+}
+
+.first-section img {
+    opacity: 0.8;
+    height: 90vh;
+}
+
+.projects-title {
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.8rem solid white;
+}
+
+.second-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+}
+
+.link-project:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-show-all {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.btn-show-all:hover {
+    background-color: rgb(202, 49, 49);
+    border: 3px solid rgb(202, 49, 49);
+}
+
+.third-section {
+    height: 40vh;
+}
+
+.icon-link {
+    font-family: 'Signika', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 3vw;
+    transition: transform 0.3s ease-out;
+}
+
+.icon-link:hover {
+    font-size: 1.4rem;
+    color: violet;
+}
+
+.footer p {
+    margin-top: 2rem;
+}
+
+@media(max-width: 700px) {
+    .project-row {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .footer.footer-text {
+        text-align: center;
+    }
+}
